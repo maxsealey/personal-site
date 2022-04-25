@@ -1,7 +1,15 @@
+import React from 'react';
 import './App.css';
+import { Nav } from './components/Nav';
+import { Footer } from './components/Footer';
 
-function App() {
-  return null
+class App extends React.Component {
+  render() {
+    return (
+      <><Nav />
+      <Footer /></>
+    )
+  }
 }
 
 export default App;
