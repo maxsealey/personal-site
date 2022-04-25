@@ -1,3 +1,11 @@
+.nav-bar {
+    height:50px;
+    padding:5px;
+    background-color:black;
+    width:100%;
+    position:absolute;
+}
+
 #footer p {
     color:black;
     font-size: 10px;
