@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
-import { Nav } from './components/Nav';
-import { Footer } from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Nav from './components/layout/Nav';
+import Footer from './components/layout/Footer';
 
 class App extends React.Component {
   render() {
     return (
-      <><Nav />
-      <Footer /></>
+      <div>
+        <Nav />
+        <Footer />
+      </div>
     )
   }
 }
