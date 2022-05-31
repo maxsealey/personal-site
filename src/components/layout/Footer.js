@@ -1,11 +1,13 @@
-import React from 'react';
-import '../../style.css';
+import React, { Component } from 'react';
 
-export default class Footer extends React.Component {
+export default class Footer extends Component {
     render() {
+        const textStyle = {color:'black', fontSize:'12px'}
+        const containerStyle = { width:'100%', position:'absolute' }
+
         return (
-            <div id = "footer">
-                <p className = "text-center">Copyright &copy; 2022 Max Sealey</p>
+            <div style = { containerStyle }>
+                <p className = "text-center" style = { textStyle }>Copyright &copy; 2022 Max Sealey</p>
             </div>
         )
     }

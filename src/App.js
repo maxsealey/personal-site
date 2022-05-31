@@ -9,6 +9,7 @@ class App extends React.Component {
     return (
       <div>
         <Nav />
+        <div style={{height:'100vh'}}></div>
         <Footer />
       </div>
     )

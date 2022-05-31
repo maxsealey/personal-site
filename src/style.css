@@ -5,24 +5,6 @@ html, body {
       sans-serif;
 }
 
-.nav-bar {
-    height:50px;
-    padding:5px;
-    background-color:black;
-    width:100%;
-    position:absolute;
-}
-
-#footer p {
-    color:black;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-#footer {
-    width:100%;
-    position:absolute;
-    left:0;
-    bottom:0;
-    right:0
+div .navbar {
+    background-color:black !important;
 }
