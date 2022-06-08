@@ -8,7 +8,7 @@ export default class Nav extends React.Component {
 
         return (
             <div>
-            <nav className='navbar navbar-expand-md navbar-dark bg-dark fixed-top' 
+            <nav className='navbar navbar-expand-md fixed-top' 
             style={ navStyle }>
                 <a href="#" style={ linkStyle }>
                     <h3 style={{margin:'auto', marginLeft:'20px'}}>Max Sealey</h3>
