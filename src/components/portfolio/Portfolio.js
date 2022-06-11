@@ -4,7 +4,9 @@ import './portfolio.scss'
 export default class Portfolio extends Component {
   render() {
     return (
-      <div className='portfolio'></div>
+      <div className='portfolio'>
+        
+      </div>
     )
   }
 }

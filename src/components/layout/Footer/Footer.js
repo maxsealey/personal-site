@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './footer.sss'
+import './footer.scss'
 
 export default class Footer extends Component {
     render() {
@@ -7,7 +7,7 @@ export default class Footer extends Component {
         const containerStyle = { width:'100%', position:'absolute' }
 
         return (
-            <div style = { containerStyle }>
+            <div className='footer' style = { containerStyle }>
                 <p className = "text-center" style = { textStyle }>Copyright &copy; 2022 Max Sealey</p>
             </div>
         )

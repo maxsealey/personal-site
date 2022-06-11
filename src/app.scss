@@ -3,4 +3,16 @@ html, body {
     font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
+    color:black;
+}
+
+.app {
+  height:100vh;
+
+  .sections {
+    width:100%;
+    height: 100vh;
+    background-color: plum;
+    padding-top: 70px;
+  }
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Nav extends Component {
   render() {
-    const navStyle = { height:'70px', display:'flex', justifyContent:'space-between', position:'absolute' }
+    const navStyle = { height:'70px', display:'flex', justifyContent:'space-between'}
     const linkStyle = { color:'white', textDecoration:'none', cursor:'pointer' }
 
     return (
