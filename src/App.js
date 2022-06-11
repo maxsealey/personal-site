@@ -2,8 +2,8 @@ import React from 'react';
 import './app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Nav from './components/layout/Nav/Nav'
-import Footer from './components/layout/Footer/Footer'
+import Nav from './components/layout/nav/Nav'
+import Footer from './components/layout/footer/Footer'
 
 import Main from './components/main/Main'
 import Portfolio from './components/portfolio/Portfolio'
