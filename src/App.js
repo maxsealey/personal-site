@@ -5,9 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Nav from './components/layout/nav/Nav'
 import Footer from './components/layout/footer/Footer'
 
-import Main from './components/main/Main'
+import Home from './components/home/Home'
 import Portfolio from './components/portfolio/Portfolio'
-import References from './components/references/References'
+import Experience from './components/experience/Experience';
 import Contact from './components/contact/Contact'
 
 class App extends React.Component {
@@ -17,9 +17,9 @@ class App extends React.Component {
         <div className="app">
           <Nav/>
           <div className="sections">
-            <Main/>
+            <Home/>
             <Portfolio/>
-            <References/>
+            <Experience/>
             <Contact/>
             <Footer/>
           </div>
