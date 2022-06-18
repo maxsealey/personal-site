@@ -12,6 +12,7 @@ export default class Nav extends Component {
             <div className='nav'>
                 <Link className='profile' to="/">
                     <img src={Profile} alt="my goofy ass face"></img>
+                    <a href="#"><p className='text-center'>Max Sealey</p></a>
                 </Link>
                 <nav>
                     <NavLink exact="true" activeclassname="active" className="home-link" to="/home">
