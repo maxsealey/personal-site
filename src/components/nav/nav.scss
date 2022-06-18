@@ -14,20 +14,6 @@
         display: block;
         padding: 8px 0;
         margin: 5px auto; // top section with profile picture
-        
-        a, p {
-            font-size: 10px;
-            letter-spacing: 1.2px;
-            color:#f7fff7;
-            font-weight: bold;
-            margin:5px auto;
-            &:hover{
-                color:#ffd700;
-            }
-            &:active{
-                color:#f7fff7;
-            }
-        } // name link
 
         img {
             display:block;

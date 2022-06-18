@@ -1,12 +1,13 @@
 @import 'animate.css';
 
-.app {
-  height:100vh;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  scroll-behavior: smooth;
+}
 
-  .sections {
-    width:100%;
-    height: 100vh;
-    background-color: plum;
-    padding-top: 70px;
-  }
+.app {
+  height:100%;
+  width:100%;
 }
