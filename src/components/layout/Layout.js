@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import Nav from './Nav'
-import Footer from './Footer'
+import Nav from '../nav/Nav'
+import Footer from '../footer/Footer'
+import './layout.scss'
 
 export default class Layout extends Component {
   render() {
