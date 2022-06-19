@@ -1,27 +1,35 @@
 import React from 'react';
-import { Link, Routes, Route } from 'react-router-dom';
 import './app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Home from './components/home/Home'
-import About from './components/about/About'
-import Projects from './components/projects/Projects'
-import Experience from './components/experience/Experience';
-import Skills from './components/skills/Skills'
-import Contact from './components/contact/Contact'
+// Layout components
+import Nav from './components/layout/nav/Nav';
+import Sidebar from './components/layout/sidebar/Sidebar';
+import Footer from './components/layout/footer/Footer';
 
-import Layout from './components/layout/Layout';
+// Sections
+import Home from './components/sections/home/Home'
+import About from './components/sections/about/About'
+import Projects from './components/sections/projects/Projects'
+import Experience from './components/sections/experience/Experience';
+import Skills from './components/sections/skills/Skills'
+import Contact from './components/sections/contact/Contact'
+
 
 class App extends React.Component {
-  render() {
+  render(){
     return (
       <>
         <div className="app">
-          <Routes>
-            <Route path="/" element={<Layout/>}>
-              <Route index element={<Home/>}></Route>
-            </Route>
-          </Routes>
+          <Nav/>
+          <div className="sections">
+            <Home/>
+            <About/>
+            <Projects/>
+            <Experience/>
+            <Skills/>
+            <Contact/>
+          </div>
         </div>
       </>
     )

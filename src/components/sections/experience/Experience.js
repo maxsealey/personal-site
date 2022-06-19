@@ -4,7 +4,9 @@ import './experience.scss'
 export default class Experience extends Component {
   render() {
     return (
-      <div></div>
+      <div className='experience'>
+        
+      </div>
     )
   }
 }
