@@ -28,7 +28,24 @@ export const education = [
                 "Cpt_S 121":"Program Design & Development",
                 "Cpt_S 122":"Data Structures",
                 "Math 216":"Discrete Structures",
-                "Math 171":"Calculus I"
+                "Math 171":"Calculus I",
+                "Math 172":"Calculus II"
+            }
+    },
+    {
+        "Degree":"Online - Non-Degree Seeking",
+        "School":"Udemy",
+        "Courses":
+            {
+                "Advanced JavaScript":"certificate link goes here"
+            }
+    },
+    {
+        "Degree":"Online - Non-Degree Seeking",
+        "School":"freeCodeCamp",
+        "Courses":
+            {
+                "Back End Development & APIs Certification":"certificate link goes here"
             }
     }
 ] // education data to export
