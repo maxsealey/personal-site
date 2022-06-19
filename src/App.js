@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link, Routes, Route } from 'react-router-dom';
 import './app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -18,7 +17,7 @@ import Contact from './components/sections/contact/Contact'
 
 
 class App extends React.Component {
-  render() {
+  render(){
     return (
       <>
         <div className="app">
