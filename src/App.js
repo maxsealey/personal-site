@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 // Layout components
 import Nav from './components/layout/nav/Nav';
-import Sidebar from './components/layout/sidebar/Sidebar';
 import Footer from './components/layout/footer/Footer';
 
 // Sections
@@ -16,24 +15,22 @@ import Skills from './components/sections/skills/Skills'
 import Contact from './components/sections/contact/Contact'
 
 
-class App extends React.Component {
-  render(){
-    return (
-      <>
-        <div className="app">
-          <Nav/>
-          <div className="sections">
-            <Home/>
-            <About/>
-            <Projects/>
-            <Experience/>
-            <Skills/>
-            <Contact/>
-          </div>
+function App() {
+  return (
+    <>
+      <div className="app">
+        <Nav/>
+        <div className="sections">
+          <Home/>
+          <About/>
+          <Projects/>
+          <Experience/>
+          <Skills/>
+          <Contact/>
         </div>
-      </>
-    )
-  }
+      </div>
+    </>
+  )
 }
 
 export default App;
