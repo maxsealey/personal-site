@@ -1,31 +1,19 @@
 import React from 'react';
-import { Link, Routes, Route } from 'react-router-dom';
 import './app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Home from './components/home/Home'
-import About from './components/about/About'
-import Projects from './components/projects/Projects'
-import Experience from './components/experience/Experience';
-import Skills from './components/skills/Skills'
-import Contact from './components/contact/Contact'
+import Home from './components/pages/home/Home'
+import About from './components/pages/about/About'
+import Projects from './components/pages/projects/Projects'
+import Experience from './components/pages/experience/Experience';
+import Skills from './components/pages/skills/Skills'
+import Contact from './components/pages/contact/Contact'
 
-import Layout from './components/layout/Layout';
 
-class App extends React.Component {
-  render() {
+const App = () => {
     return (
-      <>
-        <div className="app">
-          <Routes>
-            <Route path="/" element={<Layout/>}>
-              <Route index element={<Home/>}></Route>
-            </Route>
-          </Routes>
-        </div>
-      </>
+      <div className="app"></div>
     )
-  }
 }
 
 export default App;
