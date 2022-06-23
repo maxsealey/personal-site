@@ -8,4 +8,3 @@ export default class Skills extends Component {
     )
   }
 }
-fbiuwe
