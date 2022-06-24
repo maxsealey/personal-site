@@ -2,6 +2,8 @@ import React from 'react';
 import './app.scss';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import Nav from '../src/components/layout/nav/Nav'
+
 import Home from './components/pages/home/Home'
 import About from './components/pages/about/About'
 import Projects from './components/pages/projects/Projects'
@@ -12,7 +14,17 @@ import Contact from './components/pages/contact/Contact'
 
 const App = () => {
     return (
-      <div className="app"></div>
+      <div className="app">
+        <Nav/>
+        <div className="sections">
+          <Home/>
+          <About/>
+          <Projects/>
+          <Experience/>
+          <Skills/>
+          <Contact/>
+        </div>
+      </div>
     )
 }
 
