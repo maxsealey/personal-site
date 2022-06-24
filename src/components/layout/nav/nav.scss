@@ -1,8 +1,10 @@
+@import '../../../global.scss';
+
 .nav {
     height:100%;
-    width:80px;
+    width:70px;
     background: #343434;
-    position:absolute;
+    position:fixed;
     top:0;
     z-index: 3;
     min-height:500px;

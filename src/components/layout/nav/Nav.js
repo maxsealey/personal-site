@@ -1,36 +1,35 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faCode, faBriefcase, faEnvelope, faLaptop } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import Profile from '../../assets/profile.jpeg'
+import Profile from '../../../assets/profile.jpeg'
 import './nav.scss'
 
  export default function Nav() {
     return (
         <div className='nav'>
-            <Link className='profile' to="/">
+            <a href="#home" className='profile'>
                 <img src={Profile} alt="my face"></img>
-            </Link>
-            <nav>
-                <NavLink exact="true" activeclassname="active" className="home-link" to="/home">
+            </a>
+            <nav>              
+                <a href="#home" className='home-link'>
                     <FontAwesomeIcon icon={faHome} color="#f7fff7"/>
-                </NavLink>
-                <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+                </a>         
+                <a href="#about" className='about-link'>
                     <FontAwesomeIcon icon={faUser} color="#f7fff7"/>
-                </NavLink>
-                <NavLink exact="true" activeclassname="active" className="projects-link" to="/projects">
+                </a>
+                <a href="#projects" className='projects-link'>
                     <FontAwesomeIcon icon={faLaptop} color="#f7fff7"/>
-                </NavLink>
-                <NavLink exact="true" activeclassname="active" className="experience-link" to="/experience">
+                </a>
+                <a href="#experience" className='experience-link'>
                     <FontAwesomeIcon icon={faBriefcase} color="#f7fff7"/>
-                </NavLink>
-                <NavLink exact="true" activeclassname="active" className="skills-link" to="/skills">
+                </a>
+                <a href="#skills" className='skills-link'>
                     <FontAwesomeIcon icon={faCode} color="#f7fff7"/>
-                </NavLink>
-                <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
+                </a>
+                <a href="#contact" className='contact-link'>
                     <FontAwesomeIcon icon={faEnvelope} color="#f7fff7"/>
-                </NavLink>
+                </a>
             </nav>
             <ul>
                 <li>
