@@ -3,7 +3,7 @@ import './home.scss'
 
 const Home = () => {
   return (
-    <div className="home home-container">
+    <div className="home home-container" id="home">
       <div className="summary">
         <h1>Hey, my name is Max!</h1><br/>
         <h3>Programmer | Web Developer | Problem Solver</h3><br/>
@@ -13,3 +13,5 @@ const Home = () => {
     </div>
   )
 }
+
+export default Home;

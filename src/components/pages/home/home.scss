@@ -1,15 +1,7 @@
 .home-container {
-    width:100%;
+    width:calc(100vw - 70px);
     will-change: contents;
-    height:90%;
-    min-height:550px;
-    position:absolute;
-    opacity:0;
-    top:8%;
-    margin:0 auto;
-    z-index:1;
-    transform-style:preserve-3d;
-    animation: fadeIn 2s forwards;
+    height:100vh;
     background-color:darkorange;
 }
 
