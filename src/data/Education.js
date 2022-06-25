@@ -2,7 +2,8 @@ export const education = [
     {
         "Degree":"B.S. in Computer Science",
         "School":"Western Governors University",
-        "Graduation Date":"Expected August 2023",
+        "Honors":[],
+        "GradDate":"Expected July 2023",
         "Courses":
             {
                 "":"",
@@ -11,17 +12,19 @@ export const education = [
     {
         "Degree":"B.S. in Political Science",
         "School":"Arizona State University",
-        "Honors":"Magna cum laude",
-        "Graduation Date":"May 2021",
+        "Honors":["Magna cum laude", "Dean's List Spring '20","Dean's List Spring '21"],
+        "GradDate":"May 2021",
         "Courses":
             {
-                "CIS 300":"Web Design & Development",
-                "POS 401":"Political Statistics"
+                "CIS 300":"Web Design & Development"
             }
     },
     {
         "Degree":"No Degree - Computer Science major",
         "School":"Washington State University",
+        "Honors":["President's Honor Roll Fall '15","President's Honor Roll Spring '16",
+        "President's Honor Roll Fall '16"],
+        "GradDate":"N/As",
         "Courses":
             {
                 "Cpt_S 111":"Algorithmic Problem Solving",

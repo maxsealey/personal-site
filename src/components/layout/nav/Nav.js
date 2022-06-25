@@ -24,9 +24,9 @@ import './nav.scss'
                 <a href="#experience" className='experience-link'>
                     <FontAwesomeIcon icon={faBriefcase} color="#f7fff7"/>
                 </a>
-                <a href="#skills" className='skills-link'>
+                {/*<a href="#skills" className='skills-link'>
                     <FontAwesomeIcon icon={faCode} color="#f7fff7"/>
-                </a>
+    </a>*/}
                 <a href="#contact" className='contact-link'>
                     <FontAwesomeIcon icon={faEnvelope} color="#f7fff7"/>
                 </a>

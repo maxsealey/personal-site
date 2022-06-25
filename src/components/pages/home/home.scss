@@ -1,19 +1,56 @@
-.home-container {
+@import '../../../global.scss';
+
+.home {
     width:calc(100vw - 70px);
-    will-change: contents;
     height:100vh;
-    background-color:darkorange;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contain {
+        position:absolute;
+        top:60%;
+        transform:translateY(-50%);
+        width:95%;
+        max-width: 650px;
+        max-height: 95%;
+        color:$mainlight;
+        text-shadow: 4px 4px 8px #000000;
+        
+        h1 {
+            font-size: 45px;
+            transform-style:preserve-3d;
+            animation: bounceInLeft 1s forwards;
+        }
+        h3 {
+            font-size: 25px;
+            transform-style:preserve-3d;
+            animation: fadeIn 5s forwards;
+        }
+    }
 
-.summary {
-    position: absolute;
-    left:100px;
-    top:50%;
-    transform:translateY(-50%);
-    width:60%;
-    max-height: 95%;
-}
+    .btn {
+        display:inline-block;
+        padding:0.5em 2em;
+        border:0.16em solid $mainlight;
+        margin:0 0.4em -0.4em 0;
+        box-sizing: border-box;
+        text-transform:uppercase;
+        font-family:'Roboto',sans-serif;
+        font-weight:400;
+        min-width: 260px;
+        color:$mainlight;
+        text-align:center;
+        transition: all 0.15s;
+        margin-top: 1em;
 
-h1 {
-    font-size: 55px;
+        &:hover {
+            color:$accentcolor;
+            border-color:$accentcolor;
+        }
+
+        &:active {
+            color:#BBBBBB;
+            border-color:#BBBBBB;
+        }
+    }
 }

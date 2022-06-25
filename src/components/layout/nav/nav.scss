@@ -3,7 +3,7 @@
 .nav {
     height:100%;
     width:70px;
-    background: #343434;
+    background: $maindark;
     position:fixed;
     top:0;
     z-index: 3;
@@ -50,7 +50,7 @@
                 transition: all 0.3s ease-out;
             }
             &:hover {
-                color:#ffd700; // reveal links
+                color:$accentcolor; // reveal links
 
                 svg {
                     opacity:0; // hide icons
@@ -90,7 +90,7 @@
         }
         a.experience-link {
             &:after {
-                content:'EXPERIENCE';
+                content:'RESUME';
             }
         }
         a.skills-link {
@@ -120,10 +120,13 @@
                 display:block;
                 font-size:15px;
                 line-height:16px;
-                color:#f7fff7;
+                color:$mainlight;
 
                 &:hover {
                     transform: scale(1.5);
+                }
+                &:active {
+                    color:$accentcolor;
                 }
             }
         }
