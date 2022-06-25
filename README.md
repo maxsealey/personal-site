@@ -1,7 +1,16 @@
 # Max Sealey Personal Website
 
-Front-end made with Create-React-App, Back-end made with Node.js
+Front-end made with React
 
 <br/>
 
-[![Screen-Shot](https://i.postimg.cc/bYTk4cVc/Screen-Shot-2022-06-18-at-3-04-07-PM.png)](https://postimg.cc/K411gVyJ)
+First version I was playing around with, though I found the background color boring. 
+
+[![Screen-Shot-2022-06-24-at-6-31-58-PM.png](https://i.postimg.cc/tgxFdzqP/Screen-Shot-2022-06-24-at-6-31-58-PM.png)](https://postimg.cc/R3v34KnV)
+
+<br/>
+6/24/22
+
+Tried implementing background image, though getting it to translate and scale with a window resizing is tough. Might need to break out some good ol jQuery
+
+[![Screen-Shot-2022-06-24-at-9-01-17-PM.png](https://i.postimg.cc/rwS4ZNRL/Screen-Shot-2022-06-24-at-9-01-17-PM.png)](https://postimg.cc/YvCjhgxX)

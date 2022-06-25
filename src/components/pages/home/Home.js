@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
 import './home.scss'
-
+import LuanasCoffee from '../../../assets/LuanasCoffee.JPG'
 const Home = () => {
   return (
-    <div className="home home-container" id="home">
-      <div className="summary">
-        <h1>Hey, my name is Max!</h1><br/>
-        <h3>Programmer | Web Developer | Problem Solver</h3><br/>
-        <h4>Currently studying Computer Science at Western Governors University.</h4><br/>
-        <h4>Java | JavaScript | Python</h4>
-      </div>
+    <div className="home" id="home" style={{backgroundImage:`url(${LuanasCoffee})`, opacity:'0.7', 
+    backgroundSize:'cover', backgroundRepeat: 'no-repeat', backgroundPosition:'center center'}}>
+        <div className="contain text-center">
+          <h1>Hey, my name is Max!</h1><br/>
+          <h3>Programmer | Web Developer | CompSci Student | Problem Solver</h3>
+          <div className='button-container'>
+            <a href="#projects"><button className='btn btn-lg'>See my work</button></a>
+            <a href="#contact"><button className='btn btn-lg'>Hit me up playa</button></a>
+          </div>
+        </div>
     </div>
   )
 }
