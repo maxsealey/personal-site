@@ -8,7 +8,7 @@ import Home from './components/pages/home/Home'
 import About from './components/pages/about/About'
 import Projects from './components/pages/projects/Projects'
 import Experience from './components/pages/experience/Experience';
-import Skills from './components/pages/skills/Skills'
+//import Skills from './components/pages/skills/Skills'
 import Contact from './components/pages/contact/Contact'
 
 
@@ -21,7 +21,6 @@ const App = () => {
           <About/>
           <Projects/>
           <Experience/>
-          <Skills/>
           <Contact/>
         </div>
       </div>
