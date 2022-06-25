@@ -2,7 +2,7 @@ export const education = [
     {
         "Degree":"B.S. in Computer Science",
         "School":"Western Governors University",
-        "Graduation Date":"Expected August 2023",
+        "Graduation Date":"Expected July 2023",
         "Courses":
             {
                 "":"",
@@ -15,8 +15,7 @@ export const education = [
         "Graduation Date":"May 2021",
         "Courses":
             {
-                "CIS 300":"Web Design & Development",
-                "POS 401":"Political Statistics"
+                "CIS 300":"Web Design & Development"
             }
     },
     {
