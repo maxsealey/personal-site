@@ -12,5 +12,3 @@ First version I was playing around with, though I found the background color bor
 6/24/22
 
 Tried implementing background image, though getting it to translate and scale with a window resizing is tough. Might need to break out some good ol jQuery
-
-[![Screen-Shot-2022-06-24-at-9-01-17-PM.png](https://i.postimg.cc/rwS4ZNRL/Screen-Shot-2022-06-24-at-9-01-17-PM.png)](https://postimg.cc/YvCjhgxX)
