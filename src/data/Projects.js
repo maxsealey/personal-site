@@ -1,5 +1,6 @@
 export const projects = [
     {
+        "id":1,
         "Title":"Weedle Game",
         "Languages":[],
         "Frameworks":[],
@@ -8,6 +9,7 @@ export const projects = [
         "Description":""
     },
     {
+        "id":2,
         "Title":"",
         "Languages":[],
         "Frameworks":[],
@@ -16,6 +18,7 @@ export const projects = [
         "Description":""
     },
     {
+        "id":3,
         "Title":"",
         "Languages":[],
         "Frameworks":[],
