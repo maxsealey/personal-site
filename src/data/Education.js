@@ -1,5 +1,6 @@
 export const education = [
     {
+        "id":1,
         "Degree":"B.S. in Computer Science",
         "School":"Western Governors University",
         "Honors":[],
@@ -10,6 +11,7 @@ export const education = [
             }
     },
     {
+        "id":2,
         "Degree":"B.S. in Political Science",
         "School":"Arizona State University",
         "Honors":["Magna cum laude", "Dean's List Spring '20","Dean's List Spring '21"],
@@ -20,6 +22,7 @@ export const education = [
             }
     },
     {
+        "id":3,
         "Degree":"No Degree - Computer Science major",
         "School":"Washington State University",
         "Honors":["President's Honor Roll Fall '15","President's Honor Roll Spring '16",

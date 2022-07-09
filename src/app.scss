@@ -13,17 +13,17 @@
   width:100vw;
 
   .sections {
-    width:calc(100vw - 70px);
+    width:calc(100vw - 90px);
     height: 100vh;
     background-color: $mainblue;
     position: relative;
-    left:70px;
+    left:90px;
 
     > *{
-      width:calc(100vw - 70px);
+      width:calc(100vw - 90px);
       height: 100vh;
       scroll-snap-align: end;
-      background-color: rgb(47, 48, 97, 0.9);
+      background-color: $mainblue;
     }
   }
 }

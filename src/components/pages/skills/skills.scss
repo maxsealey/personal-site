@@ -1,5 +1,14 @@
 @import '../../../global.scss';
 
 .skills {
-    background-color: lightgray;
+    .skills-text {
+        color:$accentcolor;
+    }
+    .logos-contain {
+        >*{
+            height:50px;
+            width:auto;
+            margin:10px;
+        }
+    }
 }
