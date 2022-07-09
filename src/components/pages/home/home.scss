@@ -4,11 +4,12 @@
     width:calc(100vw - 70px);
     height:100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     .contain {
-        position:absolute;
-        top:60%;
+        position:relative;
+        top:40%;
         transform:translateY(-50%);
         width:95%;
         max-width: 650px;
@@ -19,12 +20,12 @@
         h1 {
             font-size: 45px;
             transform-style:preserve-3d;
-            animation: bounceInLeft 1s forwards;
+            animation: bounceInLeft 1.2s forwards;
         }
         h3 {
             font-size: 25px;
             transform-style:preserve-3d;
-            animation: fadeIn 5s forwards;
+            animation: fadeIn 2s forwards;
         }
     }
 
@@ -37,7 +38,7 @@
         text-transform:uppercase;
         font-family:'Roboto',sans-serif;
         font-weight:400;
-        min-width: 260px;
+        min-width: 220px;
         color:$mainlight;
         text-align:center;
         transition: all 0.15s;
