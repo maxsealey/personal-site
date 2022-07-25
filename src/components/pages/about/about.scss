@@ -1,37 +1,5 @@
 @import '../../../global.scss';
 
 .about {
-    width:calc(100vw - 70px);
-    height:100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .text-contain {
-        position:relative;
-        top:25%;
-        left:50px;
-        transform:translateY(-50%);
-        width:95%;
-        max-width: 650px;
-        max-height: 80%;
-        color:$mainlight;
-        text-shadow: 2px 2px 6px #000000;
-        margin:auto;
-        
-        h1 {
-            font-size: 45px;
-            color:$accentcolor;
-        }
-        h4 {
-            font-size: 25px;
-        }
-        a {
-            color:$accentcolor;
-            text-decoration: underline;
-            &:active {
-                color:$mainlight;
-                text-shadow: none;
-            }
-        }
-    }
+    background-color: red;
 }
