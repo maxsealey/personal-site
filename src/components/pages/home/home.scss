@@ -1,5 +1,71 @@
-@import '../../../global.scss';
+@import '../../../assets/global.scss';
+@import 'animate.css';
 
 .home {
     background-color: $mainblue;
+    font-weight:lighter;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    @keyframes move {
+        25% {
+            transform:translateY(-50px);
+        }
+        50% {
+            transform:translateY(-100px);
+        } 
+        75% {
+            transform:translateY(-150px);
+        }
+        100% {
+            transform:translateY(-200px);
+        }
+
+    }
+
+    .intro, .name, .title-el {
+        text-align: center;
+        color:white;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+
+    .title {
+        height:50px;
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom:30px;
+        .title-wrap {
+            height:100%;
+            animation:move 10s ease-in-out infinite alternate-reverse;
+            .title-el {
+                height:50px;
+                font-size: 22px;
+            }
+        }
+    }
+
+    .content-wrapper {
+        border:1px solid white;
+        padding:80px;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width:100vw;
+        margin-top:35px;
+    }
+
+    .link-wrapper {
+        flex:1;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        a >* {
+            height:40px;
+            padding:20px;
+        }
+    }
 }
