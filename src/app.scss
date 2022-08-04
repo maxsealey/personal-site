@@ -1,5 +1,5 @@
 @import 'animate.css';
-@import './global.scss';
+@import './assets/global.scss';
 
 * {
   box-sizing: border-box;
@@ -16,10 +16,8 @@
     width:100vw;
     height: 100vh;
     background-color: $mainblue;
-    position: relative;
 
     > *{
-      width:100vh;
       height: 100vh;
       scroll-snap-align: end;
     }
