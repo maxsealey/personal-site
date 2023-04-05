@@ -1,7 +1,7 @@
 export const projects = [
     {
         "id":1,
-        "Title":"Weedle Game",
+        "Title":"",
         "Languages":[],
         "Frameworks":[],
         "GitLink":"",
