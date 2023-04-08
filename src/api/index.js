@@ -4,7 +4,6 @@ const cors = require("cors");
 const education = require("../data/Education");
 const experience = require("../data/Experience");
 const projects = require("../data/Projects");
-const images = require("../data/Images");
 
 const server = express();
 

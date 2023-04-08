@@ -1,4 +1,4 @@
-export const education = [
+const education = [
     {
         "id":1,
         "Degree":"B.S. in Computer Science",
@@ -50,3 +50,5 @@ export const education = [
             }
     }
 ] // education data to export
+
+module.exports = education;

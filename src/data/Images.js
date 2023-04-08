@@ -9,7 +9,7 @@ import NODE from '../assets/tech/node.png';
 import REACT from '../assets/tech/react.png';
 import SASS from '../assets/tech/sass.png';
 
-export const images = [
+const images = [
     {
     "id":1,
     "imgName":"profile",
@@ -65,3 +65,5 @@ export const images = [
     "type":"icon"
     }
 ]
+
+module.exports = images;

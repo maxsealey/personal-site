@@ -1,4 +1,4 @@
-export const experience = [
+const experience = [
     {
     "id":1,
     "JobTitle":"",
@@ -10,3 +10,5 @@ export const experience = [
     "Description":""
     }
 ]
+
+module.exports = experience;
