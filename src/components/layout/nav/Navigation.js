@@ -1,35 +1,31 @@
 import React from 'react'
 import { Nav, Navbar, Container, NavDropdown } from 'react-bootstrap';
 
-/*
-            <nav>              
-                <a href="#home" className='home-link'>
-
-                </a>         
-                <a href="#about" className='about-link'>
-                    about
-                </a>
-                <a href="#projects" className='projects-link'>
-                    projects
-                </a>
-                <a href="#experience" className='experience-link'>
-                    experience
-                </a>
-                <a href="#contact" className='contact-link'>
-                    contact
-                </a>
-            </nav>
-*/
-
 const Navigation = () => {
     return (
         <div className='navigation'>
             <Navbar fixed="top" bg="light">
                 <Container>
-                    <Navbar.Brand href="#home">Max Sealey</Navbar.Brand>
+                    <Navbar.Brand href="#home">MaxSealey.com</Navbar.Brand>
                         <Nav className="me-auto">
                             <Nav.Link href="#about">About</Nav.Link>
-                            <Nav.Link href="#projects">Projects</Nav.Link>
+                            <NavDropdown title="Projects" id="projects-dropdown">
+                                <NavDropdown.Item href="#projects">View All Projects</NavDropdown.Item>
+                                <NavDropdown.Divider/>
+
+                                <NavDropdown.Item href="#">Scheduling App Demo</NavDropdown.Item>
+                                <NavDropdown.Item href="#">Project 2 Demo</NavDropdown.Item>
+                                <NavDropdown.Item href="#">Inventory Tracker Demo</NavDropdown.Item>
+                                <NavDropdown.Divider/>
+
+                                <NavDropdown.Item href="https://www.github.com/maxsealey">All Github Repositories</NavDropdown.Item>
+                                <NavDropdown.Divider/>
+
+                                <NavDropdown.Item href="#">Portfolio Site Repo</NavDropdown.Item>
+                                <NavDropdown.Item href="#">Scheduling App Repo</NavDropdown.Item>
+                                <NavDropdown.Item href="#">Project 2 Repo</NavDropdown.Item>
+                                <NavDropdown.Item href="#">Inventory Tracker Repo</NavDropdown.Item>
+                            </NavDropdown>
                             <Nav.Link href="#experience">Experience</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
                         </Nav>
