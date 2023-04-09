@@ -1,7 +1,7 @@
 import React from 'react'
 import './home.scss'
 
-import Navigation from '../../layout/nav/Navigation'
+import Navigation from '../../layout/Navigation'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
