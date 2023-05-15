@@ -10,4 +10,4 @@ export const projectAPI = createApi({
     })
 });
 
-export const { useGetAllproductsQuery } = projectAPI;
+export const { useGetAllprojectsQuery } = projectAPI;
