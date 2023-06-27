@@ -4,14 +4,14 @@ const education = [
         "Degree":"B.S. in Computer Science",
         "School":"Western Governors University",
         "Honors":[],
-        "GradDate":"Expected by January 2024",
+        "GradDate":"Expected by November 2024",
         "Courses":
             {
-                "C173":"Scripting & Programming - Foundations",
-                "C172":"Network & Security - Foundations",
+                "C173":"Scripting & Programming Foundations",
+                "C172":"Network & Security Foundations",
                 "C960":"Discrete Mathematics II",
-                "C867":"Scripting & Programming - Applications",
-                "C175":"Data Management - Foundations",
+                "C867":"Scripting & Programming Applications",
+                "C175":"Data Management Foundations",
                 "C170":"Data Management - Applications",
                 "D191":"Advanced Data Management",
                 "C482":"Software I",
@@ -19,7 +19,8 @@ const education = [
                 "C846":"Business of IT - Applications",
                 "C188":"Software Engineering",
                 "C952":"Computer Architecture",
-                "C195":"Software II - Advanced Java Concepts"
+                "C195":"Software II - Advanced Java Concepts",
+                "C857":"Software Quality Assurance"
             }
     },
     {
@@ -46,7 +47,8 @@ const education = [
                 "Cpt_S 121":"Program Design & Development",
                 "Cpt_S 122":"Data Structures",
                 "Math 216":"Discrete Structures",
-                "Math 171":"Calculus I"
+                "Math 171":"Calculus I",
+                "Math 172":"Calculus II"
             }
     }
 ] // education data to export
