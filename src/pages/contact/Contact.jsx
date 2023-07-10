@@ -1,7 +1,6 @@
 import React from 'react';
 import './contact.scss';
 import Navbar from '../../components/navbar/Navbar';
-import Container from '../../components/content-template/ContentTemplate'
 import ContentTemplate from '../../components/content-template/ContentTemplate';
 
 const Contact = () => {
