@@ -40,7 +40,7 @@ const education = [
         "School":"Washington State University",
         "Honors":["President's Honor Roll Fall '15","President's Honor Roll Spring '16",
         "President's Honor Roll Fall '16"],
-        "GradDate":"N/As",
+        "GradDate":"N/A",
         "Courses":
             {
                 "Cpt_S 111":"Algorithmic Problem Solving",
