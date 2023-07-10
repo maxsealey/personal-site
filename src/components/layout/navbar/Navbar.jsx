@@ -1,9 +1,45 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './navbar.scss';
+import {FaBars, FaTimes} from 'react-icons/fa';
 
 const Navbar = () => {
+
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
-    <div></div>
+    <div className="header">
+      <Link to="/">
+        <h2>MaxSealey.com</h2>
+      </Link>
+
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+
+        <li>
+          <Link to="/projects">Projects</Link>
+        </li>
+
+        <li>
+          <Link to="/experience">Experience</Link>
+        </li>
+
+        <li>
+        <Link to="/contact">Contact</Link>
+        </li>
+      </ul>
+      <div className='hamburger' onClick={handleClick}>
+        {click ? (<FaTimes size={20} style={{color:"#fff"}}/>) : (<FaBars size={20} style={{color:"#fff"}}/>)}
+      </div>
+    </div>
   )
 }
 
-export default Navbar
+export default Navbar;

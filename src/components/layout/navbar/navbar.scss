@@ -1,0 +1,57 @@
+@import "../../../assets/global.scss";
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    a {
+        color:$mainlight;
+    }
+}
+
+.hamburger {
+    display:none;
+    z-index:3;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    li {
+        padding: 0 1rem;
+        a {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color:$mainlight;
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+    .nav-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height:100vh;
+        position:absolute;
+        top:0;
+        left:-100%;
+        z-index:3;
+        transition: 0.3s;
+        background:rgb(0,0,0, 0.8);
+        li {
+            padding:1rem 0;
+            a {
+                font-size: 2rem;
+            }
+        }
+    }
+    .nav-menu.active{
+        left:0;
+    }
+    .hamburger{
+        display:initial;
+    }
+}
