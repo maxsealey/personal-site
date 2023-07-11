@@ -13,7 +13,7 @@ const Home = () => {
             <img className='main-img' src={image} alt="background image, photo cred Luana"></img>
         </div>
         <div className='content'>
-            <h1>Hey, my name is Max!</h1>
+            <h1>Max Sealey</h1>
             <p>Skilled Programmer & Upcoming CS Graduate</p>
             <br/><br/>
             <Link to="/projects" className='btn'>Projects</Link>

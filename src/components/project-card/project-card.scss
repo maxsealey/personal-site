@@ -1,0 +1,60 @@
+@import "../../assets/global.scss";
+.project-heading {
+    text-align: center;
+    padding:4rem 0 2rem 0;
+}
+
+.project-container {
+    max-width: 1140px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px;
+    padding-bottom:5rem;
+    .projectcard{
+        background: #1a1919;
+        padding:1.2rem 1rem;
+        .project-title, p {
+            color:#fff;
+            text-align: center;
+            padding:1.2rem 0;
+        }
+        img{
+            width:100%;
+        }
+        .project-btns{
+            display:flex;
+            justify-content: space-between;
+            .proj-btn {
+                padding:12px 32px;
+                width:80%;
+                margin: 1rem 0.5rem auto;
+                background-color: $mainlight;
+                font-size:1rem;
+                text-transform: uppercase;
+                color:$maindark;
+                border:1px solid $mainlight;
+                font-weight: 600;
+                cursor:pointer;
+                border-radius: 5px;
+                text-align:left;
+              }
+            
+              .proj-btn:hover {
+                background-color: $accentcolor;
+                color:$maindark;
+                border: 1px solid $maindark;
+                transition: 0.4s;
+              }
+
+        }
+    }
+}
+
+@media screen and (max-width:740px) {
+    .project-container{
+        max-width:85%;
+        margin:auto;
+        grid-template-columns: 1fr;
+    }
+}

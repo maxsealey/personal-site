@@ -16,3 +16,7 @@ body {
     list-style-type: none;
   }
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
