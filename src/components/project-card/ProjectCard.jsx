@@ -2,22 +2,17 @@ import React from 'react';
 import "./project-card.scss";
 import { NavLink } from 'react-router-dom';
 
-const ProjectCard = ({ project }) => {
-    const {Title, Thumbnail, Description, DemoLink, GitLink} = project;
-
+const ProjectCard = (props) => {
     return (
-        <div className='whole-container'>
-            <h1 className="project-heading"></h1>
-            <div className='project-container'>
-                <div className='projectcard'>
-                    <img src={Thumbnail} alt="thumbnail"/>
-                    <h2 className='project-title'>{Title}</h2>
-                    <div className='desc'>
-                        <p>{Description}</p>
-                    </div>
+        <div className='project-container'>
+            <div className='projectcard'>
+                <img src={props.imgsrc} alt="thumbnail"/>
+                <h2 className='project-title'>{props.title}</h2>
+                <div className='desc'>
+                    <p>{props.desc}</p>
                     <div className='project-btns'>
-                        <NavLink to={DemoLink} className="proj-btn">Demo</NavLink>
-                        <NavLink to={GitLink} className="proj-btn">Repo</NavLink>
+                        <NavLink to={props.demo} className="proj-btn">Demo</NavLink>
+                        <NavLink to={props.repo} className="proj-btn">Repo</NavLink>
                     </div>
                 </div>
             </div>

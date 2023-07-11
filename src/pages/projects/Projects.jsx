@@ -7,6 +7,13 @@ import ProjectCard from '../../components/project-card/ProjectCard';
 const Projects = () => {
   const [data, setData] = useState([]);
 
+  useEffect(() => {
+            document.body.style.overflow = "auto";  
+            return () => {
+              document.body.style.overflow = "hidden";
+            }
+          }, [])
+
   const fetchData = async () => {
     try {
       const response = await fetch('http://localhost:8787/api/projectdata');
@@ -24,16 +31,17 @@ const Projects = () => {
     fetchData();
   }, []);
 
-  const renderCards = () => {
-    return data.map((proj) => <ProjectCard key={proj.id} project={proj} />);
-  };
-  
-
   return (
     <div className="projects">
       <Navbar />
       <ContentTemplate heading="Project Portfolio" subtext="Thanks for checking out my work!" />
-      {renderCards()}
+      <div className='card-container'>
+        {data.map((value) => {
+          return (
+            <ProjectCard key={value.id} imgsrc={value.Thumbnail} title={value.Title} desc={value.Description} demo={value.DemoLink} repo={value.GitLink}/>
+          )
+        })}
+      </div>
     </div>
   );
 };
