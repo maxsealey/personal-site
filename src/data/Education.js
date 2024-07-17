@@ -4,14 +4,16 @@ const education = [
         "Degree":"B.S. in Computer Science",
         "School":"Western Governors University",
         "Honors":[],
-        "GradDate":"Expected by November 2024",
+        "GradDate":"June 2024",
         "Courses":
             {
-                "C173":"Scripting & Programming Foundations",
+                "C950":"Data Structures & Algorithms II",
+                "C191":"Operating Systems",
+                "D281":"Linux Foundations",
                 "C172":"Network & Security Foundations",
                 "C960":"Discrete Mathematics II",
                 "C867":"Scripting & Programming Applications",
-                "C175":"Data Management Foundations",
+                "C951":"Introduction to AI",
                 "C170":"Data Management - Applications",
                 "D191":"Advanced Data Management",
                 "C482":"Software I",
@@ -25,17 +27,6 @@ const education = [
     },
     {
         "id":2,
-        "Degree":"B.S. in Political Science",
-        "School":"Arizona State University",
-        "Honors":["Magna cum laude", "Dean's List Spring '20","Dean's List Spring '21"],
-        "GradDate":"May 2021",
-        "Courses":
-            {
-                "CIS 300":"Web Design & Development"
-            }
-    },
-    {
-        "id":3,
         "Degree":"No Degree - Computer Science major",
         "School":"Washington State University",
         "Honors":["President's Honor Roll Fall '15","President's Honor Roll Spring '16",

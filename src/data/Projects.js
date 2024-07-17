@@ -49,9 +49,20 @@ const projects = [
         "Languages":["JavaScript","Java","ScSS"],
         "Frameworks":["React","Redux","Spring Boot","Bootstrap","MaterialUI"],
         "Tech":["VSCode","MaterialUI","FontAwesome", "IntelliJ", "Maven"],
-        "GitLink":"https://github.com/maxsealey/memorabilia-online-store",
-        "DemoLink":"https://weedle-game.com",
+        "GitLink":"https://github.com/maxsealey/weedle-game",
+        "DemoLink":"N/A",
         "Description":"Wordle (or Weddle) but Pokemon. Frontend made with React/Redux, Springboot backend (in-progress)",
+        "Thumbnail":"https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+    },
+    {
+        "id":6,
+        "Title":"Machine Learning Capstone Project",
+        "Languages":["Python","SQL"],
+        "Frameworks":[],
+        "Tech":["PyCharm IDE","SQLite","scikit-learn", "matplotlib", "numpy"],
+        "GitLink":"https://github.com/maxsealey/NFLWinPredictor_WGUCapstone",
+        "DemoLink":"N/A",
+        "Description":"Application that uses machine learning to make a prediction about whether an NFL team will make the playoffs",
         "Thumbnail":"https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
     }
 ]
