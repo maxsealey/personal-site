@@ -7,7 +7,7 @@ const Contact = () => {
     return (
         <div className="contact">
             <Navbar/>
-            <ContentTemplate heading="Contact Me" subtext="Let's connect!"/>
+            <ContentTemplate heading="Contact Me" subtext=""/>
         </div>
     )
 }

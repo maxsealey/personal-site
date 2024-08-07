@@ -34,7 +34,7 @@ const Projects = () => {
   return (
     <div className="projects">
       <Navbar />
-      <ContentTemplate heading="Project Portfolio" subtext="Thanks for checking out my work!" />
+      <ContentTemplate heading="Project Portfolio" subtext="" />
       <div className='card-container'>
         {data.map((value) => {
           return (

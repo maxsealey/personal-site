@@ -7,7 +7,7 @@ const Experience = () => {
     return (
         <div className="experience">
             <Navbar/>
-            <ContentTemplate heading="Education & Experience" subtext="What I've Been Up To"/>
+            <ContentTemplate heading="Education & Experience" subtext=""/>
         </div>
     )
 }

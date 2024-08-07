@@ -14,7 +14,8 @@ const Home = () => {
         </div>
         <div className='content'>
             <h1>Max Sealey</h1>
-            <p>Skilled Programmer & Upcoming CS Graduate</p>
+            <p>2024 Computer Science Graduate (BS)</p>
+            <p style={{fontSize: "1.15rem"}}>Seeking Career Opportunities</p>
             <br/><br/>
             <Link to="/projects" className='btn'>Projects</Link>
             <Link to="/contact" className='btn'>Contact</Link>

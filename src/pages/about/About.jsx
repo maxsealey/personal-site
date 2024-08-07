@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div className='about'>
             <Navbar/>
-            <ContentTemplate heading="About Me" subtext="Just your friendly neighborhood programmer"/>
+            <ContentTemplate heading="About Me" subtext=""/>
         </div>
     )
 }
