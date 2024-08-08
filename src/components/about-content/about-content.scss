@@ -1,0 +1,27 @@
+.about-content-container {
+    width:85%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    color:#fff;
+    .about-content {
+        padding-top: 20px;
+        max-width:70%;
+        h1 {
+            text-align: center;
+            padding:10px;
+        }
+        p {
+            text-align: left;
+            padding:10px;
+            display: inline-block;
+        }
+    }
+    @media screen and (max-width:720px) {
+        .about-content {
+            max-width: 85%;
+        }
+    
+    }
+}
