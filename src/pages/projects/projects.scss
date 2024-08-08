@@ -1,8 +1,25 @@
 .projects{
+    
     .card-container{
         display:grid;
         margin:auto;
         grid-template-columns: repeat(3, 1fr);
-        grid-gap:40px;
-    }    
+        grid-gap:20px;
+        padding-top: 10px;
+        max-width: 1140px;
+    }
+    
+    @media screen and (max-width:1040px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 760px;
+        
+    }
+    }
+    @media screen and (max-width:720px) {
+        .card-container {
+            grid-template-columns: repeat(1, 1fr); 
+            max-width: 380px; 
+        }
+        }
 }

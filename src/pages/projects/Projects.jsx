@@ -19,6 +19,7 @@ const Projects = () => {
       const response = await fetch('http://localhost:8787/api/projectdata');
       if (!response.ok) {
         throw new Error('Failed to fetch project data');
+        console.log("error")
       }
       const jsonData = await response.json();
       setData(jsonData);
@@ -36,9 +37,9 @@ const Projects = () => {
       <Navbar />
       <ContentTemplate heading="Project Portfolio" subtext="" />
       <div className='card-container'>
-        {data.map((value) => {
+        {data.map((value, index) => {
           return (
-            <ProjectCard key={value.id} imgsrc={value.Thumbnail} title={value.Title} desc={value.Description} demo={value.DemoLink} repo={value.GitLink}/>
+            <ProjectCard key={index} imgsrc={value.Thumbnail} title={value.Title} desc={value.Description} demo={value.DemoLink} repo={value.GitLink}/>
           )
         })}
       </div>

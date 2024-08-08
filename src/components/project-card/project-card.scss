@@ -9,15 +9,22 @@
     margin:auto;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap:40px;
+    grid-gap:10px;
     padding-bottom:5rem;
+    justify-content: center;
     .projectcard{
         background: #1a1919;
-        padding:1.2rem 1rem;
+        padding:1rem 0.8rem;
+        margin:auto;
+        margin-top:10px;
+        min-width: 21rem;
         .project-title, p {
             color:#fff;
             text-align: center;
             padding:1.2rem 0;
+        }
+        .desc{
+            min-width: 80%;
         }
         img{
             width:100%;
@@ -53,7 +60,7 @@
 
 @media screen and (max-width:740px) {
     .project-container{
-        max-width:85%;
+        max-width:95%;
         margin:auto;
         grid-template-columns: 1fr;
     }
