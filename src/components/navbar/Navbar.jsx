@@ -28,10 +28,6 @@ const Navbar = () => {
         </li>
 
         <li>
-          <Link to="/experience">Experience</Link>
-        </li>
-
-        <li>
         <Link to="/contact">Contact</Link>
         </li>
       </ul>
