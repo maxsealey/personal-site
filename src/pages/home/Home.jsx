@@ -10,7 +10,7 @@ const Home = () => {
     <div className="home-img-container">
         <Navbar/>
         <div className='mask'>
-            <img className='main-img' src={image} alt="background image, photo cred Luana"></img>
+            <img className='main-img' src={image}></img>
         </div>
         <div className='content'>
             <h1>Max Sealey</h1>

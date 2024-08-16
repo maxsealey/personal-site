@@ -19,7 +19,6 @@ const Projects = () => {
       const response = await fetch('http://localhost:8787/api/projectdata');
       if (!response.ok) {
         throw new Error('Failed to fetch project data');
-        console.log("error")
       }
       const jsonData = await response.json();
       setData(jsonData);
