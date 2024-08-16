@@ -11,8 +11,8 @@ const ProjectCard = (props) => {
                 <div className='desc'>
                     <p>{props.desc}</p>
                     <div className='project-btns'>
-                        <NavLink to={props.demo} className="proj-btn">Demo</NavLink>
-                        <NavLink to={props.repo} className="proj-btn">Repo</NavLink>
+                    <NavLink to={props.repo} className="proj-btn">Repo</NavLink>
+                        {props.demo ? <NavLink to={props.demo} className="proj-btn">Demo</NavLink> : <NavLink to={props.demo} className="proj-btn-null">Demo</NavLink>}
                     </div>
                 </div>
             </div>

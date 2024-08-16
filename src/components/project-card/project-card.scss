@@ -48,12 +48,29 @@
                 border-radius: 5px;
                 text-align:center;
               }
+              .proj-btn-null {
+                padding:12px 32px;
+                width:80%;
+                margin: 1rem 0.5rem auto;
+                background-color: $accentdark;
+                font-size:1rem;
+                text-transform: uppercase;
+                color:$accentdark;
+                border:1px solid $accentdark;
+                font-weight: 600;
+                border-radius: 5px;
+                text-align:center;
+              }
             
               .proj-btn:hover {
                 background-color: $accentcolor;
                 color:$maindark;
                 border: 1px solid $maindark;
                 transition: 0.4s;
+              }
+
+              .proj-btn-null:hover {
+                cursor:default;
               }
 
         }
