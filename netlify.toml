@@ -1,0 +1,14 @@
+[build]
+  functions = "netlify/functions"  # where Netlify functions are located
+  publish = "build"  # where static files are located
+
+[functions]
+  external_node_modules = ["express"]  # External modules
+  node_bundler = "esbuild"  # Bundler
+
+[[redirects]]
+  from = "/api/*"  # Redirect pattern for API requests
+  to = "/.netlify/functions/api/:splat"  # Route to the Netlify function
+  status = 200  # HTTP status code for the redirect
+
+
