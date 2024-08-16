@@ -1,4 +1,4 @@
-const server = require('../../src/api/server');  
+const server = require('../../src/api/server'); 
 
 exports.handler = async (event, context) => {
   return new Promise((resolve, reject) => {

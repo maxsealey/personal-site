@@ -1,14 +1,15 @@
 [build]
-  functions = "netlify/functions"  # where Netlify functions are located
-  publish = "build"  # where static files are located
+  functions = "netlify/functions"  # Directory where Netlify functions are located
+  publish = "build"  # Directory where your React app’s static files are located
 
 [functions]
-  external_node_modules = ["express"]  # External modules
-  node_bundler = "esbuild"  # Bundler
+  external_node_modules = ["express", "cors", "dotenv", "emailjs-com"]  # Include required external modules
+  node_bundler = "esbuild"  # Use esbuild for bundling functions
 
 [[redirects]]
-  from = "src/api/server"  # Redirect pattern for API requests
-  to = "/.netlify/functions/api/:splat"  # Route to the Netlify function
+  from = "/api/*"  # Redirect pattern for API requests
+  to = "/.netlify/functions/express-server/:splat"  # Route to the Netlify function
   status = 200  # HTTP status code for the redirect
+
 
 

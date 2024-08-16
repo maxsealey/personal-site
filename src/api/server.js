@@ -53,3 +53,5 @@ app.use((req, res) => {
 app.listen(8787, ()=> {
     console.log("API running on port 8787");
 })
+
+module.exports = app;
