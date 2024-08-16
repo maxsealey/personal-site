@@ -16,7 +16,8 @@ const Projects = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:8787/api/projectdata');
+      // const response = await fetch('http://localhost:8787/api/projectdata'); // for local development
+      const response = await fetch('/api/projectdata');
       if (!response.ok) {
         throw new Error('Failed to fetch project data');
       }

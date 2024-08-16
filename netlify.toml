@@ -10,6 +10,10 @@
   from = "/api/*"  # Redirect pattern for API requests
   to = "/.netlify/functions/express-server/:splat"  # Route to the Netlify function
   status = 200  # HTTP status code for the redirect
-
+  
+[[redirects]]
+  from = "/*"  # Catch-all redirect for React Router
+  to = "/index.html"  # Serve index.html for all frontend routes
+  status = 200  # HTTP status code for the redirect
 
 
