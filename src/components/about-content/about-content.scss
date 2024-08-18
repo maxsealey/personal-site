@@ -1,3 +1,5 @@
+@import "../../assets/global.scss";
+
 .about-content-container {
     width:85%;
     margin:auto;
@@ -8,6 +10,22 @@
     .about-content {
         padding-top: 20px;
         max-width:70%;
+        display:grid;
+        margin:auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap:20px;
+        padding-top: 10px;
+        max-width: 1140px;
+        .left-content, .right-content {
+            border:3px solid $accentcolor;
+            margin:auto;
+            margin-top: 25px;
+            padding:1rem;
+            min-height:400px;
+            background-color:$accentdark ;
+            border-radius: 10px;
+        }
+
         h1, h3 {
             text-align: center;
             padding:10px;
@@ -18,9 +36,14 @@
             display: inline-block;
         }
     }
-    @media screen and (max-width:720px) {
+    @media screen and (max-width:760px) {
         .about-content {
             max-width: 85%;
+            margin:auto;
+            grid-template-columns: 1fr;
+            .left-content, .right-content {
+                min-height: 0;
+            }
         }
     
     }
