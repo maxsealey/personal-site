@@ -8,8 +8,16 @@ const AboutContent = () => {
                 <div className="left-content">
                     <h1>Personal Summary</h1>
                     <p>
-                    My name is Max Sealey, and I earned a Bachelor of Science in Computer Science in the Summer of 2024. 
-                    Thank you for taking the time to explore my portfolio!<br/><br/>
+                    Hi, I'm Max Sealey, a recent Computer Science graduate with a passion for coding and a drive 
+                    to become a successful software engineer. With hands-on experience in web development, data analysis,
+                    and software engineering, I bring a strong foundation in Java, Python, and JavaScript.<br/><br/>
+                    Over the years, I’ve been constantly working to improve my skills in JavaScript, React, Node.js, and Python, 
+                    with a growing proficiency in full-stack development, database management, and data science. 
+                    I’ve also developed a solid understanding of object-oriented programming and machine learning concepts, 
+                    which I’m eager to apply in a professional setting. My portfolio showcases a 
+                    range of projects that reflect my ability to develop high-quality software solutions and ability to .<br/><br/>
+                    When I’m not coding, I enjoy spending time with family, watching the NFL, competing in fantasy football leagues, playing trading card games 
+                    with friends (particularly MTG Commander), spending time outdoors, or engaging in one of many other hobbies.<br/><br/>
                     I’m currently seeking for opportunities in the Spokane/Coeur d'Alene area (commuting is no issue) to contribute 
                     as a software developer, SQA engineer, web developer, data analyst, information security specialist, 
                     database or network administrator, systems architect, or IT specialist.
