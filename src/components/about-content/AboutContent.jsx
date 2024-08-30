@@ -15,7 +15,7 @@ const AboutContent = () => {
                     with a growing proficiency in full-stack development, database management, and data science. 
                     I’ve also developed a solid understanding of object-oriented programming and machine learning concepts, 
                     which I’m eager to apply in a professional setting. My portfolio showcases a 
-                    range of projects that reflect my ability to develop high-quality software solutions and ability to .<br/><br/>
+                    range of projects that reflect my ability to learn new tech and write high-quality code.<br/><br/>
                     When I’m not coding, I enjoy spending time with family, watching the NFL, competing in fantasy football leagues, playing trading card games 
                     with friends (particularly MTG Commander), spending time outdoors, or engaging in one of many other hobbies.<br/><br/>
                     I’m currently seeking for opportunities in the Spokane/Coeur d'Alene area (commuting is no issue) to contribute 
