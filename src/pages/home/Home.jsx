@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./home.scss";
-import image from "../../assets/lus.jpeg";
+import image from "../../assets/abstract-hexagonal-pattern-dark-backdrop-cyber-connection_1017-53964.jpg";
 import {BsGithub,BsLinkedin} from "react-icons/bs";
 import Navbar from '../../components/navbar/Navbar';
 
